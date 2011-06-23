@@ -3,11 +3,11 @@
   <head>
     <title><%= title %></title>
     <%= csrf_meta_tag %>
-    <%= render :partial => 'layouts/stylesheets' %>
+    <%= render 'layouts/stylesheets' %>
   </head>
   <body>
     <div class="container">
-      <%= render :partial => 'layouts/header' %>
+      <%= render 'layouts/header' %>
       <section class="round">
         <%= yield %>
       </section>
